@@ -67,19 +67,11 @@ import os
 # @S4 OFFICIAL GRP #keep_alive()
 # @S4 OFFICIAL GRP# insert your Telegram bot token here
 
-
-@bot.message_handler(commands=['owner'])
-def welcome_plan(message):
-    user_name = message.from_user.first_name
-    response = f'''{user_name},\n𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 --> @S4_LUCHI
-'''
     
-    
-    
-bot = telebot.TeleBot('6836807211:AAEbOufiVGV3Lg39cgtFO0DUvHtol_-E8A4')
+bot = telebot.TeleBot('7141965785:AAFRsCyY6y_iW4r_GMxkXdRclUGBVRF0fYc')
 
 # @S4 OFFICIAL GRP # Admin user IDs
-admin_id = ["1470983554","1908095816","7209762563"]
+admin_id = ["1470983554","1908095816","1537783826"]
 
 # @S4 OFFICIAL GRP # File to store allowed user IDs
 USER_FILE = "users.txt"
